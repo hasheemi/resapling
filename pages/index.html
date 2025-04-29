@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.2/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.2/dist/aos.js"></script>
+    <title>Resapling: Homepage</title>
+  </head>
+  <body class="overflow-x-hidden bg-leaf-50">
+    <nav class="bg-leaf-50 border-gray-200 relative z-50">
+      <div
+        class="w-full flex flex-wrap items-center justify-between mx-auto sm:px-12 py-4 px-4"
+      >
+        <a href="#" class="flex items-center space-x-3 relogo">
+          <span
+            class="self-center text-3xl font-semibold whitespace-nowrap text-leaf-900"
+            >Resapling</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="navtoggle"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <i class="bx bx-menu text-4xl"></i>
+        </button>
+        <div
+          class="hidden w-full md:block md:w-auto navcon p-2"
+          id="navbar-default"
+        >
+          <ul class="navlist">
+            <li>
+              <a href="index.html" class="navlink active" aria-current="page"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a href="about.html" class="navlink">Tentang</a>
+            </li>
+            <li>
+              <a href="update.html" class="navlink">Update</a>
+            </li>
+            <li>
+              <a href="login.html" class="navlink">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="hero flex flex-col px-6 sm:px-12">
+      <div
+        class="tagline mt-16 my-10 text-center mx-auto w-full"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 class="w-full lg:w-3/4 text-4xl sm:text-5xl font-bold mx-auto">
+          Membangkitkan <span class="text-leaf-700">Alam</span> Kembali
+          <br class="lg:block hidden" />
+          dengan <span class="text-leaf-700">Tunas</span> dan Harapan
+        </h1>
+        <p
+          class="my-4 font-light text-gray-700 text-sm w-4/5 sm:w-1/2 lg:w-2/5 mx-auto"
+        >
+          Dari pucuk yang merkah, asa bersemi. Setiap tunas adalah janji
+          kehidupan, setapak kecil menghijaukan kembali hamparan bumi.
+        </p>
+        <button class="primary">Pelajari</button>
+      </div>
+      <div
+        class="info flex flex-col sm:flex-row sm:justify-around lg:justify-between sm:items-end gap-4 sm:mx-auto lg:mx-0"
+      >
+        <div
+          class="box rounded-xl w-full sm:w-1/2 lg:w-1/5 xl:w-1/4 bg-leaf-700 lg:h-64 text-white p-4 relative mb-4 shadow-xl hidden sm:block"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <h5 class="font-bold text-xl">175,4 Ribu Ha</h5>
+          <h6 class="font-medium text-sm">Deforestasi 2024</h6>
+          <p class="font-light text-white text-xs my-4 mb-10">
+            Alam tidak baik baik saja, beribu hektar hutan telah rata dengan
+            tanah karena meningkatnya kebutuhan akan lahan maupun sumber daya,
+            terkadang manusia lupa untuk menanami kembali hutan yang ia tebang
+          </p>
+          <img
+            src="../assets/img/item/semak.png"
+            alt=""
+            class="xl:block hidden w-2/5 object-cover absolute bottom-0 right-0"
+          />
+        </div>
+        <div
+          class="box rounded-xl w-full mx-auto md:mx-0 md:w-1/2 aspect-video lg:h-52 relative shadow-xl mb-4 sm:mb-0"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div
+            class="w-full h-full rounded-xl bg-leaf-950 bg-opacity-20 absolute inset-0"
+          ></div>
+          <img
+            src="../assets/img/item/tunas.jpg"
+            alt=""
+            class="w-full h-full object-center rounded-xl object-cover"
+          />
+        </div>
+        <div
+          class="box rounded-xl w-full mx-auto md:mx-0 md:w-1/5 lg:h-72 bg-leaf-950 p-4 mb-4 shadow-xl flex flex-row sm:flex-col gap-4 items-center lg:block block sm:hidden"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          <div
+            class="drop border-4 border-white border-dashed p-4 w-32 h-32 !aspect-square mx-auto mt-4 mb-10 rounded-full flex"
+          >
+            <i class="bx bxs-droplet text-white text-7xl block m-auto"></i>
+          </div>
+          <p class="font-normal text-white text-sm sm:text-xs">
+            Hutan menyimpan cadangan air tanah, jika hutan musnah kekeringan
+            akan merajalela.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      class="study flex flex-col md:flex-row w-full px-6 md:px-12 mx-auto mt-4 md:mt-16 md:gap-8"
+    >
+      <div class="left w-full sm:w-11/12 md:w-1/2 mx-auto md:mx-0 relative">
+        <a
+          href="https://youtu.be/hvffd4ylG-o?si=QdRihWOzIBZ0-hjX"
+          target="_blank"
+        >
+          <div
+            class="!w-full lg:w-4/5 lg:h-64 relative mt-7 mx-auto md:mx-0 sm:flex sm:justify-center md:justify-normal"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div
+              class="lg:w-4/5 sm:w-full w-full h-full bg-leaf-950 bg-opacity-20 absolute flex z-20 rounded-xl mx-auto"
+            >
+              <div
+                class="w-12 h-12 bg-leaf-500 text-white rounded-full m-auto flex justify-center items-center"
+              >
+                <i class="bx bx-play text-4xl"></i>
+              </div>
+            </div>
+            <img
+              class="lg:w-4/5 sm:w-full w-full aspect-video object-cover rounded-xl shadow-xl"
+              src="../assets/img/item/rekamnusa2.png"
+              alt="Rekam Nusa Keadaan hutan"
+            />
+          </div>
+        </a>
+        <div
+          class="min-w-max w-3/5 lg:w-1/3 bg-leaf-950 font-medium rounded-xl my-2 sm:my-4 text-white p-4 flex gap-3 items-center shadow-xl"
+          data-aos="fade-right"
+          data-aos-duration="800"
+          data-aos-delay="40"
+        >
+          <i class="bx bxl-youtube text-xl"></i> Rekam Nusantara
+        </div>
+      </div>
+      <div
+        class="right w-full sm:w-11/12 md:w-1/2 mx-auto md:mx-0"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <div
+          class="chips bg-leaf-500 my-2 text-white px-4 py-1.5 rounded-full max-w-max mt-2 md::mt-10"
+        >
+          Retorika
+        </div>
+        <h2
+          class="capitalize font-semibold text-4xl lg:w-4/5 sm:w-4/5 md:w-full w-full my-2"
+        >
+          Masih bertanya kenapa reboisasi penting?
+        </h2>
+        <p
+          class="my-2 sm:my-3 font-light text-gray-800 text-xs lg:text-sm w-4/5 lg:w-2/3"
+        >
+          Di tengah gempuran pembangunan dan kebutuhan ekonomi, seringkali kita
+          melupakan pentingnya menjaga hutan. Reboisasi, atau penanaman kembali
+          hutan yang telah rusak, memiliki peran krusial dalam menjaga
+          keseimbangan ekosistem
+        </p>
+        <a href="#">
+          <button type="button" class="primary my-3">Selengkapnya</button>
+        </a>
+      </div>
+    </section>
+    <section class="donation px-6 sm:px-12 mt-8 md:mt-16">
+      <div
+        class="w-full flex flex-col gap-4 md:flex-row md:justify-between md:items-center"
+      >
+        <div
+          class="head w-full md:w-2/5"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <div
+            class="chips bg-leaf-500 my-2 text-white px-4 py-1.5 rounded-full max-w-max"
+          >
+            Donasi
+          </div>
+          <h2 class="text-4xl font-semibold my-2">Mari Lakukan Aksi Nyata</h2>
+          <p
+            class="mt-2 font-light text-gray-800 text-sm sm:text-sm w-4/5 md:w-full"
+          >
+            Membantu menyembuhkan alam bisa dari rumah. Donasi bibit pohon
+            dengan <span class="font-medium">Resapling mulai 10rb saja</span>
+          </p>
+        </div>
+        <div
+          class="control flex space-x-4"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <div
+            class="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full border-2 border-black"
+          >
+            <i class="bx bx-chevron-left text-3xl"></i>
+          </div>
+          <div
+            class="w-8 h-8 md:w-12 md:h-12 flex items-center justify-center rounded-full border-2 border-black"
+          >
+            <i class="bx bx-chevron-right text-3xl"></i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 xl:gap-12 mt-10 mx-auto justify-between"
+      >
+        <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
+          <img
+            src="../assets/img/item/sinarmas.jpeg"
+            alt="Green Fund"
+            class=""
+          />
+          <div class="mt-4">
+            <h3>Sinarmoas</h3>
+            <p class="title">
+              Menanam kembali kertas menjadi pohon bersama PT. Sinarmoas
+            </p>
+            <p class="target">
+              240,210 Bibit
+              <span>Target 500,000 Bibit</span>
+            </p>
+            <div class="progress">
+              <div class="full" style="width: 49%"></div>
+            </div>
+            <p class="deadline">6 hari lagi</p>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
+          <img src="../assets/img/item/ikn.jpg" alt="Green Fund" class="" />
+          <div class="mt-4">
+            <h3>Otorita IKA-EN</h3>
+            <p class="title">
+              Revitalisasi Hutan di Kalimantan akibat proyek strategis
+            </p>
+            <p class="target">
+              147,783 Bibit
+              <span>Target 600,000 Bibit</span>
+            </p>
+            <div class="progress">
+              <div class="full" style="width: 23%"></div>
+            </div>
+            <p class="deadline">2 Minggu lagi</p>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in-up" data-aos-duration="800">
+          <img
+            src="../assets/img/item/gemarsorong.jpg"
+            alt="Green Fund"
+            class=""
+          />
+          <div class="mt-4">
+            <h3>Hulujaya</h3>
+            <p class="title">
+              Reboisasi Mangrove pencegah abrasi di Sorong Papua
+            </p>
+            <p class="target">
+              21,023 Bibit
+              <span>Target 100,000 Bibit</span>
+            </p>
+            <div class="progress">
+              <div class="full" style="width: 21%"></div>
+            </div>
+            <p class="deadline">1 Bulan lagi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq w-full bg-leaf-100 mt-8 md:mt-16 pt-8 pb-16 sm:px-12">
+      <div class="mx-auto px-4 md:px-6">
+        <div data-aos="fade-down" data-aos-duration="500" data-aos-delay="20">
+          <h2 class="text-4xl font-semibold text-center mx-auto w-4/5 sm:w-1/2">
+            Bingung untuk memulai langkah ini?
+          </h2>
+          <p
+            class="mt-2 font-light text-gray-800 text-xs sm:text-sm mx-auto w-1/2 sm:w-2/5 text-center"
+          >
+            jika masih ada pertanyaan, kami siap membantu, hubungi kami lewat
+            kontak
+          </p>
+        </div>
+        <div class="mt-8 sm:mt-6 w-11/12 sm:w-full md:w-4/5 lg:w-3/4 mx-auto">
+          <details
+            class="mt-4 py-2 px-4 bg-gray-50 shadow rounded-lg"
+            data-aos="zoom-in-down"
+            data-aos-duration="700"
+            data-aos-delay="40"
+          >
+            <summary class="font-medium cursor-pointer">
+              Bagaimana cara berdonasi di Resapling?
+            </summary>
+            <p
+              class="mt-2 font-normal py-4 text-sm w-4/5 border-white border-t"
+            >
+              Silakan buat akun terlebih dahulu, lalu pilih menu Donasi. Di
+              sana, Anda dapat memilih campaign yang tersedia berdasarkan jenis
+              bibit serta lokasi penanaman yang diinginkan. Setelah itu, lakukan
+              pembayaran melalui transfer bank atau dompet digital (e-wallet).
+            </p>
+          </details>
+          <details
+            class="mt-4 py-2 px-4 bg-gray-50 shadow rounded-lg"
+            data-aos="zoom-in-down"
+            data-aos-duration="700"
+            data-aos-delay="50"
+          >
+            <summary class="font-medium cursor-pointer">
+              Dimana bibit pohon akan ditanam?
+            </summary>
+            <p
+              class="mt-2 font-normal py-4 text-sm w-4/5 border-white border-t"
+            >
+              Kami akan melakukan survei terkait kerusakan hutan di beberapa
+              daerah di Indonesia lalu berkoordinasi dengan pemerintah ataupun
+              pihak swasta terkait kerja sama program penghijauan lahan bersama
+              Resapling
+            </p>
+          </details>
+          <details
+            class="mt-4 py-2 px-4 bg-gray-50 shadow rounded-lg"
+            data-aos="zoom-in-down"
+            data-aos-duration="700"
+            data-aos-delay="60"
+          >
+            <summary class="font-medium cursor-pointer">
+              Apakah kami akan menerima bukti penanaman bibit?
+            </summary>
+            <p
+              class="mt-2 font-normal py-4 text-sm w-4/5 border-white border-t"
+            >
+              Tentu saja, kami melakukan dokumentasi saat dan setelah aksi
+              sebagai bukti tanggup jawab kami terhadap donatur. Rencananya kami
+              juga akan melakukan monitoring dengan konsep IOT dan dikirimkan
+              secara realtime ke donatur lewat dashboard
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <section
+      class="ads px-6 sm:px-12 pt-12 flex flex-col md:flex-row gap-4 justify-between"
+    >
+      <div
+        class="headline order-1 md:order-1 w-full lg:w-1/3 mb-10"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+      >
+        <div
+          class="chips bg-leaf-500 my-2 text-white px-4 py-1.5 rounded-full max-w-max"
+        >
+          Relawan
+        </div>
+        <h3 class="text-2xl font-semibold w-4/5 lg:w-3/4 capitalize">
+          Bergabunglah menjadi relawan Resapling menghijaukan indonesia
+        </h3>
+        <p
+          class="mt-2 font-light text-gray-800 text-xs sm:text-sm w-1/2 md:w-4/5"
+        >
+          selain menjadi donatur anda juga bisa menjadi penyelenggara maupun
+          panitia program Resapling di daerah
+        </p>
+        <span class="flex items-center gap-1 mt-3"
+          ><i class="bx bx-envelope"></i>
+          <span>resaplinghead@gmail.com</span></span
+        >
+        <span class="flex items-center gap-1 mt-1"
+          ><i class="bx bx-phone"></i> <span>829353830303</span></span
+        >
+      </div>
+      <div
+        class="plant order-3 md:order-2 w-3/5 mx-auto lg:w-1/5 relative flex justify-center overflow-hidden"
+      >
+        <img
+          src="../assets/img/item/plant.png"
+          alt=""
+          class="w-full z-50 relative md:top-16 lg:mt-0 md:object-contain lg:object-fill"
+        />
+        <div
+          class="circle w-56 h-56 border-leaf-700 border-8 absolute -bottom-32 m-auto z-10 border-dashed rounded-full animate-spin"
+        ></div>
+      </div>
+      <div
+        class="need w-full order-2 md:order-3 lg:w-1/3 flex flex-col gap-4 items-end"
+      >
+        <div
+          class="job"
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="40"
+        >
+          <i class="bx bx-donate-heart job-icon"></i>
+          <h3 class="job-title">Donatur</h3>
+        </div>
+
+        <div
+          class="job"
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="50"
+        >
+          <i class="bx bx-calendar-event job-icon"></i>
+          <h3 class="job-title">Penyelenggara</h3>
+        </div>
+
+        <div
+          class="job"
+          data-aos="fade-left"
+          data-aos-duration="700"
+          data-aos-delay="60"
+        >
+          <i class="bx bxs-megaphone job-icon"></i>
+          <h3 class="job-title">Influencer</h3>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-leaf-975 rounded-t-xl">
+      <div class="mx-auto w-full py-6 lg:py-8 sm:px-12 px-6">
+        <div class="md:flex md:justify-between">
+          <div class="mb-6 md:mb-0 xs:w-full md:w-1/3">
+            <a href="#" class="flex items-center">
+              <!-- <img src="../assets/img/logo.png" class="h-8 me-3" alt="Logo" /> -->
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap text-white relogo"
+                >Resapling</span
+              >
+            </a>
+            <p class="text-gray-200 text-xs mt-5 xs:w-2/3 md:w-4/5">
+              Resapling adalah sebuah lembaga swadaya yang berfokus pada riset
+              dan aksi mengenai lingkungan, membawa mimpi besar untuk melihat
+              alam kembali hijau
+            </p>
+          </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+              <h2 class="mb-6 text-sm uppercase text-white">Studi</h2>
+              <ul class="text-leaf-100">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Arsip</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm uppercase text-white">Follow</h2>
+              <ul class="text-leaf-100">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Instagram</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Kontak</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 class="mb-6 text-sm uppercase text-white">Legal</h2>
+              <ul class="text-leaf-100">
+                <li class="mb-4">
+                  <a href="#" class="hover:underline">Perizinan</a>
+                </li>
+                <li>
+                  <a href="#" class="hover:underline">Panduan</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+            >© 2025 <a href="#" class="hover:underline">Resapling</a>. All
+            Rights Reserved.
+          </span>
+        </div>
+      </div>
+    </footer>
+    <script src="../assets/js/core.js"></script>
+  </body>
+</html>

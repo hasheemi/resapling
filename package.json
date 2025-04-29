@@ -1,0 +1,13 @@
+{
+  "name": "resapling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "npx tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
